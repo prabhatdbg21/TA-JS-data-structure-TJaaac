@@ -87,8 +87,8 @@ for (let first of movies[0].genres){
 }
 
 // 19. Log all the genres of the second movie one by one
-for (let first of movies[1].genres){
-  console.log (first);
+for (let second of movies[1].genres){
+  console.log (second); 
 }
 
 // 20. Log if the first actor of the first movie is `Rachel McAdams` or not (You have to log true or false)
