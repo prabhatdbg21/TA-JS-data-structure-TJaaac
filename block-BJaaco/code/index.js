@@ -115,7 +115,7 @@ function clear(ary) {
   let final = [] ;
   for ( let value of ary){
     if (!isUnwanted (value)){
-    final.push (value)
+    final.push (value) ;
     }
   }
   return final ;
@@ -152,3 +152,4 @@ function arrayToObj( ary ) {
  console.log(arrayToObj([1, 2, 3, 4])); // {0: 1, 1: 2, 2: 3, 3: 4}
  console.log(arrayToObj(['a', undefined, 'd'])); // {0: 'a', 1: undefined, 2: 'd'}
 console.log(arrayToObj(['Ryan', 'John'])); // {0: 'Ryan', 1: 'John'}
+ 
