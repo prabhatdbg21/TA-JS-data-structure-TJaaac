@@ -231,7 +231,7 @@ let person = {
   },
 };
 
-let clonedPerson = cloneObject(user); // person
+let clonedPerson = cloneObject(user); 
 
 console.log(
   `The user object is ${
